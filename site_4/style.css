@@ -1,0 +1,98 @@
+.container {
+	height: 750px;
+	width: 1200px;
+	background: url(img/background.jpg);
+	margin: 0 auto;
+	position: relative;
+} 
+
+.logo img {
+	margin-top: 169px;
+	margin-left: 475px;
+}
+
+.form {
+	height: 267px;
+	width: 388px;
+	background: linear-gradient(135deg, #e4dec1, #9eac79);
+	border: 1px solid #bdc6a1;
+	border-radius: 4px;
+	position: absolute;
+	top: 265px;
+	left: 387px;
+	box-shadow: 0 0 60px;
+}
+
+.text, .password {
+	width: 310px;
+	height: 47px;
+	border: 1px solid #99998f;
+	border-radius: 3px;
+	background: #e2e1ce;
+	padding-left: 18px;
+	font-size: 15px;
+}
+
+.text {
+	position: absolute;
+	left: 24px;
+	top: 67px;
+	text-transform: capitalize;
+}
+
+.password {
+	position: absolute;
+	left: 24px;
+	top: 128px;
+}
+
+.submit {
+	width: 200px;
+	height: 41px;
+	border: 1px solid #99998f;
+	background: #e2e1ce;
+	border-radius: 3px;
+	position: absolute;
+	top: 194px;
+	left: 24px;
+}
+
+.checkbox {
+	border: 1px solid #99998f;
+	background: #e2e1ce;
+	position: absolute;
+	top: 205px;
+	left: 230px;
+	cursor: pointer;
+}
+
+.form p {
+	color: #eeeee4;
+	position: absolute;
+	top: 188px;
+	left: 255px;
+}
+
+.form h3 {
+	position: absolute;
+	top: -10px;
+	left: 106px;
+	font-size: 28px
+}
+
+.submit {
+	font-size: 15px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.container > p {
+	margin-left: 473px;
+	margin-top: 310px;
+}
+
+.container p a {
+	text-decoration: none;
+	color: #c6c7c2;
+}
+
